@@ -25,7 +25,7 @@ Section:NewSlider("JumpPower", "More jump", 500, 0, function(s) -- 500 (MaxValue
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-local Section = Tab:NewSection("Scripts hub")
+local Section = Tab:NewSection("Scripts hubs")
 Section:NewButton("CMD-X", "With cmd-x you can prite invisiblefling and you gonna trolling players", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
 end)
